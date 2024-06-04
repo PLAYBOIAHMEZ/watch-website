@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #eccc9a;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+#home {
+  background-color: black;
+}
+
+.col-2 {
+  color: #fff;
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.col-2 img {
+  max-width: 100%;
+  padding: 50px 0;
+}
+
+.col-2 h1 {
+  font-size: 50px;
+  line-height: 50px;
+  margin: 25px 0;
+}
+
+.btn {
+  display: inline-block;
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: ease-in 0.5s;
+}
+
+.btn:hover {
+  background: #1cbbb4;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container_top {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.col-4 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+
+.title {
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: blueviolet;
+}
+
+h3 {
+  color: black;
+  font-weight: normal;
+}
+
+.col-4 img {
+  width: 100%;
+}
+
+.col-4 p {
+  font-size: 14px;
+}
+
+#contact {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container_form {
+  background-color: #eccc9a;
+  max-width: 600px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+label {
+  width: 140px;
+  display: inline-block;
+  margin: auto;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+input {
+  padding: 4px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid blueviolet;
+  width: 7cm;
+}
+
+#submit {
+  margin-top: 7px;
+  color: white;
+  font-weight: bold;
+  padding: 4px;
+  background-color: cyan;
+  font-size: large;
+  display: block;
+  margin: auto;
+}
+
+#submit:hover {
+  background-color: darkorchid;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #eccc9a;
+  color: black;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
